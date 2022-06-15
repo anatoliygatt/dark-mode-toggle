@@ -1,0 +1,102 @@
+{
+  "name": "@anatoliygatt/dark-mode-toggle",
+  "version": "1.0.0",
+  "description": "A dark mode toggle component for React.",
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "dark-mode",
+    "toggle",
+    "dark-mode-toggle",
+    "accessible",
+    "javascript",
+    "typescript"
+  ],
+  "homepage": "https://github.com/anatoliygatt/dark-mode-toggle#readme",
+  "bugs": "https://github.com/anatoliygatt/dark-mode-toggle/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anatoliygatt/dark-mode-toggle.git"
+  },
+  "license": "MIT",
+  "author": "Anatoliy Gatt",
+  "sideEffects": false,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "run-s build:*",
+    "build:esbuild": "ts-node scripts/build.ts",
+    "build:tsc": "tsc",
+    "commit": "git-cz",
+    "lint": "run-s lint:*",
+    "lint:eslint": "eslint . --ignore-path .gitignore",
+    "lint:prettier": "prettier --check . --ignore-path .gitignore",
+    "lint:tsc": "tsc --emitDeclarationOnly false --noEmit",
+    "prepare": "is-ci || husky install",
+    "semantic-release": "semantic-release",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/jest": "^28.1.1",
+    "@types/node": "^17.0.43",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "commitizen": "^4.2.4",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "esbuild": "^0.14.43",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jest-dom": "^4.0.2",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-testing-library": "^5.5.1",
+    "husky": "^8.0.1",
+    "is-ci": "^3.0.1",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "lint-staged": "^13.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.3",
+    "sort-package-json": "^1.57.0",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
