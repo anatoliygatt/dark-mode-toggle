@@ -3,7 +3,7 @@
     "bash -c tsc --emitDeclarationOnly false --noEmit",
     "eslint --fix",
     "prettier --write",
-    "jest --bail --findRelatedTests"
+    "jest --bail --findRelatedTests --passWithNoTests"
   ],
   "*.{json,yml,md}": "prettier --write",
   "package.json": "sort-package-json"
