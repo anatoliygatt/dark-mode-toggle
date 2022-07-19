@@ -1,0 +1,723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DarkModeToggle renders with the default size and colors 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0 span {
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.emotion-0 span:nth-of-type(1):hover {
+  color: #404346;
+}
+
+.emotion-0 span:nth-of-type(1):active {
+  color: #010101;
+}
+
+.emotion-0 span:nth-of-type(2):hover {
+  color: #fcfefe;
+}
+
+.emotion-0 span:nth-of-type(2):active {
+  color: #cdd1d5;
+}
+
+.emotion-0 input {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: box-shadow,background-color;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+  outline: none;
+  border-radius: 14px;
+  width: 48px;
+  height: 28px;
+  background-color: #dce0e3;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0 input:checked {
+  background-color: #404346;
+}
+
+.emotion-0 input:checked:hover,
+.emotion-0 input:checked:hover::after {
+  background-color: #2d2f31;
+}
+
+.emotion-0 input:checked:active,
+.emotion-0 input:checked:active::after {
+  background-color: #141516;
+}
+
+.emotion-0 input:checked::before {
+  left: 24px;
+  background-color: #dce0e3;
+}
+
+.emotion-0 input:checked::after {
+  top: 12px;
+  right: 2px;
+  width: 1px;
+  height: 1px;
+  border-radius: 0.5px;
+  background-color: #404346;
+}
+
+.emotion-0 input:hover,
+.emotion-0 input:hover::after {
+  background-color: #fcfefe;
+}
+
+.emotion-0 input:focus,
+.emotion-0 input:focus-visible {
+  box-shadow: 0 0 0 2px rgb(59 130 246 / 0.5);
+}
+
+.emotion-0 input:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.emotion-0 input:active,
+.emotion-0 input:active::after {
+  background-color: #cdd1d5;
+}
+
+.emotion-0 input::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: left,background-color;
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  background-color: #2d2f31;
+}
+
+.emotion-0 input::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: top,right,width,height,border-radius,background-color;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #dce0e3;
+}
+
+.emotion-0[data-checked='false'] span {
+  color: #b9bdc1;
+}
+
+.emotion-0[data-checked='false'] span:nth-of-type(1) {
+  pointer-events: none;
+}
+
+.emotion-0[data-checked='true'] span {
+  color: #5b5e62;
+}
+
+.emotion-0[data-checked='true'] span:nth-of-type(2) {
+  pointer-events: none;
+}
+
+.emotion-0[data-transition-disabled='true'] *,
+.emotion-0[data-transition-disabled='true'] *::before,
+.emotion-0[data-transition-disabled='true'] *::after {
+  transition-duration: 0ms;
+}
+
+<div
+  class="emotion-0"
+  data-checked="false"
+  data-testid="dark-mode-toggle"
+  data-transition-disabled="false"
+>
+  <input
+    role="switch"
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`DarkModeToggle renders with the labels 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0 span {
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.emotion-0 span:nth-of-type(1):hover {
+  color: #404346;
+}
+
+.emotion-0 span:nth-of-type(1):active {
+  color: #010101;
+}
+
+.emotion-0 span:nth-of-type(2):hover {
+  color: #fcfefe;
+}
+
+.emotion-0 span:nth-of-type(2):active {
+  color: #cdd1d5;
+}
+
+.emotion-0 input {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: box-shadow,background-color;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+  outline: none;
+  border-radius: 14px;
+  width: 48px;
+  height: 28px;
+  background-color: #dce0e3;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0 input:checked {
+  background-color: #404346;
+}
+
+.emotion-0 input:checked:hover,
+.emotion-0 input:checked:hover::after {
+  background-color: #2d2f31;
+}
+
+.emotion-0 input:checked:active,
+.emotion-0 input:checked:active::after {
+  background-color: #141516;
+}
+
+.emotion-0 input:checked::before {
+  left: 24px;
+  background-color: #dce0e3;
+}
+
+.emotion-0 input:checked::after {
+  top: 12px;
+  right: 2px;
+  width: 1px;
+  height: 1px;
+  border-radius: 0.5px;
+  background-color: #404346;
+}
+
+.emotion-0 input:hover,
+.emotion-0 input:hover::after {
+  background-color: #fcfefe;
+}
+
+.emotion-0 input:focus,
+.emotion-0 input:focus-visible {
+  box-shadow: 0 0 0 2px rgb(59 130 246 / 0.5);
+}
+
+.emotion-0 input:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.emotion-0 input:active,
+.emotion-0 input:active::after {
+  background-color: #cdd1d5;
+}
+
+.emotion-0 input::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: left,background-color;
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  background-color: #2d2f31;
+}
+
+.emotion-0 input::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: top,right,width,height,border-radius,background-color;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #dce0e3;
+}
+
+.emotion-0[data-checked='false'] span {
+  color: #b9bdc1;
+}
+
+.emotion-0[data-checked='false'] span:nth-of-type(1) {
+  pointer-events: none;
+}
+
+.emotion-0[data-checked='true'] span {
+  color: #5b5e62;
+}
+
+.emotion-0[data-checked='true'] span:nth-of-type(2) {
+  pointer-events: none;
+}
+
+.emotion-0[data-transition-disabled='true'] *,
+.emotion-0[data-transition-disabled='true'] *::before,
+.emotion-0[data-transition-disabled='true'] *::after {
+  transition-duration: 0ms;
+}
+
+<div
+  class="emotion-0"
+  data-checked="false"
+  data-testid="dark-mode-toggle"
+  data-transition-disabled="false"
+>
+  <span
+    aria-hidden="true"
+  >
+    Dark
+  </span>
+  <input
+    role="switch"
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+  >
+    Light
+  </span>
+</div>
+`;
+
+exports[`DarkModeToggle renders with the size="lg" and custom colors 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0 span {
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.emotion-0 span:nth-of-type(1):hover {
+  color: #404346;
+}
+
+.emotion-0 span:nth-of-type(1):active {
+  color: #010101;
+}
+
+.emotion-0 span:nth-of-type(2):hover {
+  color: #fcfefe;
+}
+
+.emotion-0 span:nth-of-type(2):active {
+  color: #cdd1d5;
+}
+
+.emotion-0 input {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: box-shadow,background-color;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+  outline: none;
+  border-radius: 28px;
+  width: 96px;
+  height: 56px;
+  background-color: #e2e8f0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0 input:checked {
+  background-color: #334155;
+}
+
+.emotion-0 input:checked:hover,
+.emotion-0 input:checked:hover::after {
+  background-color: #1e293b;
+}
+
+.emotion-0 input:checked:active,
+.emotion-0 input:checked:active::after {
+  background-color: #0f172a;
+}
+
+.emotion-0 input:checked::before {
+  left: 48px;
+  background-color: #e2e8f0;
+}
+
+.emotion-0 input:checked::after {
+  top: 24px;
+  right: 4px;
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #334155;
+}
+
+.emotion-0 input:hover,
+.emotion-0 input:hover::after {
+  background-color: #f8fafc;
+}
+
+.emotion-0 input:focus,
+.emotion-0 input:focus-visible {
+  box-shadow: 0 0 0 4px rgb(59 130 246 / 0.5);
+}
+
+.emotion-0 input:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.emotion-0 input:active,
+.emotion-0 input:active::after {
+  background-color: #cbd5e1;
+}
+
+.emotion-0 input::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: left,background-color;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: #1e293b;
+}
+
+.emotion-0 input::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 4px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: top,right,width,height,border-radius,background-color;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #e2e8f0;
+}
+
+.emotion-0[data-checked='false'] span {
+  color: #b9bdc1;
+}
+
+.emotion-0[data-checked='false'] span:nth-of-type(1) {
+  pointer-events: none;
+}
+
+.emotion-0[data-checked='true'] span {
+  color: #5b5e62;
+}
+
+.emotion-0[data-checked='true'] span:nth-of-type(2) {
+  pointer-events: none;
+}
+
+.emotion-0[data-transition-disabled='true'] *,
+.emotion-0[data-transition-disabled='true'] *::before,
+.emotion-0[data-transition-disabled='true'] *::after {
+  transition-duration: 0ms;
+}
+
+<div
+  class="emotion-0"
+  data-checked="false"
+  data-testid="dark-mode-toggle"
+  data-transition-disabled="false"
+>
+  <input
+    role="switch"
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`DarkModeToggle renders with the size="md" and default colors 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0 span {
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.emotion-0 span:nth-of-type(1):hover {
+  color: #404346;
+}
+
+.emotion-0 span:nth-of-type(1):active {
+  color: #010101;
+}
+
+.emotion-0 span:nth-of-type(2):hover {
+  color: #fcfefe;
+}
+
+.emotion-0 span:nth-of-type(2):active {
+  color: #cdd1d5;
+}
+
+.emotion-0 input {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: box-shadow,background-color;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+  outline: none;
+  border-radius: 21px;
+  width: 72px;
+  height: 42px;
+  background-color: #dce0e3;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0 input:checked {
+  background-color: #404346;
+}
+
+.emotion-0 input:checked:hover,
+.emotion-0 input:checked:hover::after {
+  background-color: #2d2f31;
+}
+
+.emotion-0 input:checked:active,
+.emotion-0 input:checked:active::after {
+  background-color: #141516;
+}
+
+.emotion-0 input:checked::before {
+  left: 36px;
+  background-color: #dce0e3;
+}
+
+.emotion-0 input:checked::after {
+  top: 18px;
+  right: 3px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 0.75px;
+  background-color: #404346;
+}
+
+.emotion-0 input:hover,
+.emotion-0 input:hover::after {
+  background-color: #fcfefe;
+}
+
+.emotion-0 input:focus,
+.emotion-0 input:focus-visible {
+  box-shadow: 0 0 0 3px rgb(59 130 246 / 0.5);
+}
+
+.emotion-0 input:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.emotion-0 input:active,
+.emotion-0 input:active::after {
+  background-color: #cdd1d5;
+}
+
+.emotion-0 input::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: left,background-color;
+  width: 30px;
+  height: 30px;
+  border-radius: 18px;
+  background-color: #2d2f31;
+}
+
+.emotion-0 input::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: 3px;
+  display: block;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  transition-property: top,right,width,height,border-radius,background-color;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #dce0e3;
+}
+
+.emotion-0[data-checked='false'] span {
+  color: #b9bdc1;
+}
+
+.emotion-0[data-checked='false'] span:nth-of-type(1) {
+  pointer-events: none;
+}
+
+.emotion-0[data-checked='true'] span {
+  color: #5b5e62;
+}
+
+.emotion-0[data-checked='true'] span:nth-of-type(2) {
+  pointer-events: none;
+}
+
+.emotion-0[data-transition-disabled='true'] *,
+.emotion-0[data-transition-disabled='true'] *::before,
+.emotion-0[data-transition-disabled='true'] *::after {
+  transition-duration: 0ms;
+}
+
+<div
+  class="emotion-0"
+  data-checked="false"
+  data-testid="dark-mode-toggle"
+  data-transition-disabled="false"
+>
+  <input
+    role="switch"
+    type="checkbox"
+  />
+</div>
+`;
