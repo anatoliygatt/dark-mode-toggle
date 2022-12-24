@@ -1,6 +1,6 @@
 {
   "name": "@anatoliygatt/dark-mode-toggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dark mode toggle component for React.",
   "keywords": [
     "react",
