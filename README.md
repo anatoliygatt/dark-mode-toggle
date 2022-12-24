@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/anatoliygatt/dark-mode-toggle/actions?query=workflow%3ACI">
-    <img src="https://img.shields.io/github/workflow/status/anatoliygatt/dark-mode-toggle/CI/master?style=for-the-badge&logo=github&label=CI&labelColor=000000" alt="Github CI Workflow Status">
+    <img src="https://img.shields.io/github/actions/workflow/status/anatoliygatt/dark-mode-toggle/ci.yml?branch=master&style=for-the-badge&logo=github&label=CI&labelColor=000000" alt="Github CI Workflow Status">
   </a>
   <a href="https://www.npmjs.com/package/@anatoliygatt/dark-mode-toggle">
     <img src="https://img.shields.io/npm/v/@anatoliygatt/dark-mode-toggle.svg?style=for-the-badge&logo=npm&labelColor=000000" alt="NPM Version">
